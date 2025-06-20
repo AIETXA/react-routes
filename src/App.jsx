@@ -2,6 +2,7 @@ import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import routes from './routes'
 import { Link } from 'react-router-dom'
+import './app.css'
 
 function App() {
     return (
