@@ -7,7 +7,7 @@ import './app.css'
 function App() {
     return (
         <Router>
-            <nav>
+            <nav className='navegador'>
                 <Link to={'/'}>Home</Link> |{''}
                 <Link to={'/Projects'}>Projects</Link> |{''}
                 <Link to={'/Resume'}>Resume</Link> |{''}
